@@ -8,6 +8,15 @@ export class User {
   uuid!: string;
 
   @Property()
-  // @AutoMap()
+  @AutoMap()
   name!: string;
+
+  @Property()
+  @AutoMap()
+  password!: string;
+
+  constructor(name: string, password: string) {
+    this.name = name;
+    this.password = password;
+  }
 }

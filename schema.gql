@@ -9,4 +9,5 @@ type Query {
 type UserView {
   uuid: String!
   name: String!
+  password: String!
 }

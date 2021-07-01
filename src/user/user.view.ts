@@ -10,4 +10,8 @@ export class UserView {
   @Field()
   @AutoMap()
   name: string;
+
+  @Field()
+  @AutoMap()
+  password: string;
 }
