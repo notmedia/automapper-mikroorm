@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  getUsers: [UserView!]!
+}
+
+type UserView {
+  uuid: String!
+  name: String!
+}
